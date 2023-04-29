@@ -1,0 +1,185 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.row{
+	display: flex;
+	height: 720px;
+}
+.
+
+.box{
+	flex: 1;
+}
+html{
+	scroll-behavior: smooth;
+}
+
+/* navbar */
+.navbar{
+	display: flex;
+	justify-content: center;
+	height: 50px;
+	align-items: center;
+	position: sticky;
+	top: 0
+	;
+}
+.navbar::before{
+	content: "";
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+}
+.navbar ul{
+	display: flex;
+	list-style: none;
+}
+.navbar ul li{
+	font-size: 1.1rem;
+}
+.navbar ul li a{
+	padding: 5px 20px;
+	text-decoration: none;
+	color: white;
+}
+.navbar ul li a:hover{
+	border-bottom: 2px solid white;
+}
+
+/* About Section */
+#about{
+	display: flex;
+	flex-direction: column;
+	height: 720px;
+	justify-content: center;
+	align-items: center;
+	color: black;
+}
+#about::before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: wheat;
+	height: 770px;
+	width: 100%;
+	z-index: -1;
+	opacity: .8;
+}
+h1{
+	font-size: 2.5rem;
+}
+
+/* skills */
+#skills{
+	background-image: url('bg.jpeg');
+	padding-top: 20px;
+	height: 50%;
+}
+
+.cont{
+	height: 300px;
+	width: 200px;
+	background-color:grey;
+	border-radius: 20px;
+	margin-left: 70px;
+	margin-bottom: 20px;
+	padding: 60px;
+	margin-top: 50px;
+	margin-right: 40px;
+}
+ .row{
+	margin-left: 30px;
+}
+.heading{
+	color: black;
+	padding-left: 80px;
+}
+p{
+	color: black;
+	font-size: 20px;
+}
+h2{
+	font-size: 28px;
+	padding-right: 20px;
+}
+
+/* Education Section */
+#education{
+	display: flex;
+	flex-direction: column;
+	background-color: #000000dc;
+	height: 750px;
+}
+#education h1{
+	margin-bottom: 35px;
+	color: white;
+	margin-top: 60px;
+	text-align: center;
+}
+.columns{
+	display: grid;
+	grid-template-columns: auto auto;
+
+}
+.box{
+	height: 200px;
+	width: 500px;
+	background-color: rgba(255, 255, 255, 0.1);
+	border-radius: 20px;
+	margin-left: 140px;
+	margin-bottom: 20px;
+	padding: 20px;
+	margin-top: 30px;
+}
+.box h2{
+	color: yellowgreen;
+	font-size: 2rem;
+	margin-bottom: 40px;
+	font-family: cursive;
+}
+.box p{
+	color: white;
+	font-size: 1.1rem;
+}
+.open{
+	font-size: 3rem;
+	color: white;
+	margin-top: 50px;
+	text-align: center;
+	margin-bottom: 15px;
+} 
+
+/* Contact Section */
+	
+.text{
+	color: white;
+	border: 2px solid white;
+	margin-left: 37%;
+	margin-right: 37%;
+	margin-top: 130px;
+	
+}
+.bg{
+	background-color: black;
+	height: 720px;
+	padding-top: 40px;
+}
+.head{
+	color: black;
+	margin: 0%;
+}
+
+.columns{
+	width: 720px;
+}
+.follow a{
+text-decoration: none;
+}
+.follow{
+	margin-top: 20px;
+	height: 50px;
+}
